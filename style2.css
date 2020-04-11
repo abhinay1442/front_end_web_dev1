@@ -1,0 +1,25 @@
+body{
+	animation: anime 15s ease-in-out infinite;
+	background-size: cover;
+	font-family: Arial;
+}
+h1{
+	text-align: left;
+	font-size: 20px;
+	margin-top: 5%;
+	margin-left: 60%;
+	color:black;
+}
+@keyframes anime{
+    from{left: 100px;}
+    to{right: 100px;}
+	0%,100%{
+		background-image: url("wallpaper1.jpg");
+	}
+	25%,75%{
+		background-image: url("wallpaper2.jpg");
+	}
+	50%{
+		background-image: url("wall paper.jpg");
+	}
+}
